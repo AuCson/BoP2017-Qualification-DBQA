@@ -1,0 +1,5 @@
+data/
+stanford-segmenter-2016-10-31/
+*.pyc
+*.xml
+.idea/
