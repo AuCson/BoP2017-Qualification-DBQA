@@ -1,0 +1,252 @@
+Sentence #1 (17 tokens):
+在国税办的税务登记证和在地税办的税务登记证有什么区别？
+[Text=在 CharacterOffsetBegin=0 CharacterOffsetEnd=1 PartOfSpeech=P Lemma=在 NamedEntityTag=O]
+[Text=国税 CharacterOffsetBegin=1 CharacterOffsetEnd=3 PartOfSpeech=NN Lemma=国税 NamedEntityTag=O]
+[Text=办 CharacterOffsetBegin=3 CharacterOffsetEnd=4 PartOfSpeech=VV Lemma=办 NamedEntityTag=O]
+[Text=的 CharacterOffsetBegin=4 CharacterOffsetEnd=5 PartOfSpeech=DEC Lemma=的 NamedEntityTag=O]
+[Text=税务 CharacterOffsetBegin=5 CharacterOffsetEnd=7 PartOfSpeech=NN Lemma=税务 NamedEntityTag=O]
+[Text=登记证 CharacterOffsetBegin=7 CharacterOffsetEnd=10 PartOfSpeech=NN Lemma=登记证 NamedEntityTag=O]
+[Text=和 CharacterOffsetBegin=10 CharacterOffsetEnd=11 PartOfSpeech=CC Lemma=和 NamedEntityTag=O]
+[Text=在 CharacterOffsetBegin=11 CharacterOffsetEnd=12 PartOfSpeech=P Lemma=在 NamedEntityTag=O]
+[Text=地税 CharacterOffsetBegin=12 CharacterOffsetEnd=14 PartOfSpeech=NN Lemma=地税 NamedEntityTag=O]
+[Text=办 CharacterOffsetBegin=14 CharacterOffsetEnd=15 PartOfSpeech=VV Lemma=办 NamedEntityTag=O]
+[Text=的 CharacterOffsetBegin=15 CharacterOffsetEnd=16 PartOfSpeech=DEC Lemma=的 NamedEntityTag=O]
+[Text=税务 CharacterOffsetBegin=16 CharacterOffsetEnd=18 PartOfSpeech=NN Lemma=税务 NamedEntityTag=O]
+[Text=登记证 CharacterOffsetBegin=18 CharacterOffsetEnd=21 PartOfSpeech=NN Lemma=登记证 NamedEntityTag=O]
+[Text=有 CharacterOffsetBegin=21 CharacterOffsetEnd=22 PartOfSpeech=VE Lemma=有 NamedEntityTag=O]
+[Text=什么 CharacterOffsetBegin=22 CharacterOffsetEnd=24 PartOfSpeech=DT Lemma=什么 NamedEntityTag=O]
+[Text=区别 CharacterOffsetBegin=24 CharacterOffsetEnd=26 PartOfSpeech=NN Lemma=区别 NamedEntityTag=O]
+[Text=？ CharacterOffsetBegin=26 CharacterOffsetEnd=27 PartOfSpeech=PU Lemma=？ NamedEntityTag=O]
+(ROOT
+  (IP
+    (NP
+      (CP
+        (IP
+          (VP
+            (PP (P 在)
+              (NP (NN 国税)))
+            (VP (VV 办))))
+        (DEC 的))
+      (NP (NN 税务) (NN 登记证)))
+    (VP
+      (PP (CC 和)
+        (NP
+          (CP
+            (IP
+              (VP
+                (PP (P 在)
+                  (NP (NN 地税)))
+                (VP (VV 办))))
+            (DEC 的))
+          (NP (NN 税务) (NN 登记证))))
+      (VP (VE 有)
+        (NP
+          (DP (DT 什么))
+          (NP (NN 区别)))))
+    (PU ？)))
+
+root(ROOT-0, 有-14)
+case(国税-2, 在-1)
+nmod:prep(办-3, 国税-2)
+acl(登记证-6, 办-3)
+mark(办-3, 的-4)
+compound:nn(登记证-6, 税务-5)
+nsubj(有-14, 登记证-6)
+nmod:prep(有-14, 和-7)
+case(地税-9, 在-8)
+nmod:prep(办-10, 地税-9)
+acl(登记证-13, 办-10)
+mark(办-10, 的-11)
+compound:nn(登记证-13, 税务-12)
+dep(和-7, 登记证-13)
+det(区别-16, 什么-15)
+dobj(有-14, 区别-16)
+punct(有-14, ？-17)
+
+Sentence #2 (17 tokens):
+在国税办的税务登记证和在地税办的税务登记证区别是什么？
+[Text=在 CharacterOffsetBegin=28 CharacterOffsetEnd=29 PartOfSpeech=P Lemma=在 NamedEntityTag=O]
+[Text=国税 CharacterOffsetBegin=29 CharacterOffsetEnd=31 PartOfSpeech=NN Lemma=国税 NamedEntityTag=O]
+[Text=办 CharacterOffsetBegin=31 CharacterOffsetEnd=32 PartOfSpeech=VV Lemma=办 NamedEntityTag=O]
+[Text=的 CharacterOffsetBegin=32 CharacterOffsetEnd=33 PartOfSpeech=DEC Lemma=的 NamedEntityTag=O]
+[Text=税务 CharacterOffsetBegin=33 CharacterOffsetEnd=35 PartOfSpeech=NN Lemma=税务 NamedEntityTag=O]
+[Text=登记证 CharacterOffsetBegin=35 CharacterOffsetEnd=38 PartOfSpeech=NN Lemma=登记证 NamedEntityTag=O]
+[Text=和 CharacterOffsetBegin=38 CharacterOffsetEnd=39 PartOfSpeech=CC Lemma=和 NamedEntityTag=O]
+[Text=在 CharacterOffsetBegin=39 CharacterOffsetEnd=40 PartOfSpeech=P Lemma=在 NamedEntityTag=O]
+[Text=地税 CharacterOffsetBegin=40 CharacterOffsetEnd=42 PartOfSpeech=NN Lemma=地税 NamedEntityTag=O]
+[Text=办 CharacterOffsetBegin=42 CharacterOffsetEnd=43 PartOfSpeech=VV Lemma=办 NamedEntityTag=O]
+[Text=的 CharacterOffsetBegin=43 CharacterOffsetEnd=44 PartOfSpeech=DEC Lemma=的 NamedEntityTag=O]
+[Text=税务 CharacterOffsetBegin=44 CharacterOffsetEnd=46 PartOfSpeech=NN Lemma=税务 NamedEntityTag=O]
+[Text=登记证 CharacterOffsetBegin=46 CharacterOffsetEnd=49 PartOfSpeech=NN Lemma=登记证 NamedEntityTag=O]
+[Text=区别 CharacterOffsetBegin=49 CharacterOffsetEnd=51 PartOfSpeech=NN Lemma=区别 NamedEntityTag=O]
+[Text=是 CharacterOffsetBegin=51 CharacterOffsetEnd=52 PartOfSpeech=VC Lemma=是 NamedEntityTag=O]
+[Text=什么 CharacterOffsetBegin=52 CharacterOffsetEnd=54 PartOfSpeech=PN Lemma=什么 NamedEntityTag=O]
+[Text=？ CharacterOffsetBegin=54 CharacterOffsetEnd=55 PartOfSpeech=PU Lemma=？ NamedEntityTag=O]
+(ROOT
+  (IP
+    (NP
+      (NP
+        (CP
+          (IP
+            (VP
+              (PP (P 在)
+                (NP (NN 国税)))
+              (VP (VV 办))))
+          (DEC 的))
+        (NP (NN 税务) (NN 登记证)))
+      (CC 和)
+      (NP
+        (CP
+          (IP
+            (VP
+              (PP (P 在)
+                (NP (NN 地税)))
+              (VP (VV 办))))
+          (DEC 的))
+        (NP (NN 税务) (NN 登记证) (NN 区别))))
+    (VP (VC 是)
+      (NP (PN 什么)))
+    (PU ？)))
+
+root(ROOT-0, 什么-16)
+case(国税-2, 在-1)
+nmod:prep(办-3, 国税-2)
+acl(登记证-6, 办-3)
+mark(办-3, 的-4)
+compound:nn(登记证-6, 税务-5)
+conj(区别-14, 登记证-6)
+cc(区别-14, 和-7)
+case(地税-9, 在-8)
+nmod:prep(办-10, 地税-9)
+acl(区别-14, 办-10)
+mark(办-10, 的-11)
+compound:nn(区别-14, 税务-12)
+compound:nn(区别-14, 登记证-13)
+nsubj(什么-16, 区别-14)
+cop(什么-16, 是-15)
+punct(什么-16, ？-17)
+
+Sentence #3 (15 tokens):
+国税办的税务登记证和地税办的税务登记证区别是什么？
+[Text=国税 CharacterOffsetBegin=56 CharacterOffsetEnd=58 PartOfSpeech=NN Lemma=国税 NamedEntityTag=O]
+[Text=办 CharacterOffsetBegin=58 CharacterOffsetEnd=59 PartOfSpeech=VV Lemma=办 NamedEntityTag=O]
+[Text=的 CharacterOffsetBegin=59 CharacterOffsetEnd=60 PartOfSpeech=DEC Lemma=的 NamedEntityTag=O]
+[Text=税务 CharacterOffsetBegin=60 CharacterOffsetEnd=62 PartOfSpeech=NN Lemma=税务 NamedEntityTag=O]
+[Text=登记证 CharacterOffsetBegin=62 CharacterOffsetEnd=65 PartOfSpeech=NN Lemma=登记证 NamedEntityTag=O]
+[Text=和 CharacterOffsetBegin=65 CharacterOffsetEnd=66 PartOfSpeech=CC Lemma=和 NamedEntityTag=O]
+[Text=地税 CharacterOffsetBegin=66 CharacterOffsetEnd=68 PartOfSpeech=NN Lemma=地税 NamedEntityTag=O]
+[Text=办 CharacterOffsetBegin=68 CharacterOffsetEnd=69 PartOfSpeech=VV Lemma=办 NamedEntityTag=O]
+[Text=的 CharacterOffsetBegin=69 CharacterOffsetEnd=70 PartOfSpeech=DEC Lemma=的 NamedEntityTag=O]
+[Text=税务 CharacterOffsetBegin=70 CharacterOffsetEnd=72 PartOfSpeech=NN Lemma=税务 NamedEntityTag=O]
+[Text=登记证 CharacterOffsetBegin=72 CharacterOffsetEnd=75 PartOfSpeech=NN Lemma=登记证 NamedEntityTag=O]
+[Text=区别 CharacterOffsetBegin=75 CharacterOffsetEnd=77 PartOfSpeech=NN Lemma=区别 NamedEntityTag=O]
+[Text=是 CharacterOffsetBegin=77 CharacterOffsetEnd=78 PartOfSpeech=VC Lemma=是 NamedEntityTag=O]
+[Text=什么 CharacterOffsetBegin=78 CharacterOffsetEnd=80 PartOfSpeech=PN Lemma=什么 NamedEntityTag=O]
+[Text=？ CharacterOffsetBegin=80 CharacterOffsetEnd=81 PartOfSpeech=PU Lemma=？ NamedEntityTag=O]
+(ROOT
+  (IP
+    (NP
+      (CP
+        (IP
+          (NP
+            (CP
+              (IP
+                (NP (NN 国税))
+                (VP (VV 办)))
+              (DEC 的))
+            (NP (NN 税务) (NN 登记证)
+              (CC 和)
+              (NN 地税)))
+          (VP (VV 办)))
+        (DEC 的))
+      (NP (NN 税务) (NN 登记证) (NN 区别)))
+    (VP (VC 是)
+      (NP (PN 什么)))
+    (PU ？)))
+
+root(ROOT-0, 什么-14)
+nsubj(办-2, 国税-1)
+acl(地税-7, 办-2)
+mark(办-2, 的-3)
+compound:nn(地税-7, 税务-4)
+conj(地税-7, 登记证-5)
+cc(地税-7, 和-6)
+nsubj(办-8, 地税-7)
+acl(区别-12, 办-8)
+mark(办-8, 的-9)
+compound:nn(区别-12, 税务-10)
+compound:nn(区别-12, 登记证-11)
+nsubj(什么-14, 区别-12)
+cop(什么-14, 是-13)
+punct(什么-14, ？-15)
+
+Sentence #4 (15 tokens):
+国税办的税务登记证和地税办的税务登记证区别有哪些？
+[Text=国税 CharacterOffsetBegin=82 CharacterOffsetEnd=84 PartOfSpeech=NN Lemma=国税 NamedEntityTag=O]
+[Text=办 CharacterOffsetBegin=84 CharacterOffsetEnd=85 PartOfSpeech=VV Lemma=办 NamedEntityTag=O]
+[Text=的 CharacterOffsetBegin=85 CharacterOffsetEnd=86 PartOfSpeech=DEC Lemma=的 NamedEntityTag=O]
+[Text=税务 CharacterOffsetBegin=86 CharacterOffsetEnd=88 PartOfSpeech=NN Lemma=税务 NamedEntityTag=O]
+[Text=登记证 CharacterOffsetBegin=88 CharacterOffsetEnd=91 PartOfSpeech=NN Lemma=登记证 NamedEntityTag=O]
+[Text=和 CharacterOffsetBegin=91 CharacterOffsetEnd=92 PartOfSpeech=CC Lemma=和 NamedEntityTag=O]
+[Text=地税 CharacterOffsetBegin=92 CharacterOffsetEnd=94 PartOfSpeech=NN Lemma=地税 NamedEntityTag=O]
+[Text=办 CharacterOffsetBegin=94 CharacterOffsetEnd=95 PartOfSpeech=VV Lemma=办 NamedEntityTag=O]
+[Text=的 CharacterOffsetBegin=95 CharacterOffsetEnd=96 PartOfSpeech=DEC Lemma=的 NamedEntityTag=O]
+[Text=税务 CharacterOffsetBegin=96 CharacterOffsetEnd=98 PartOfSpeech=NN Lemma=税务 NamedEntityTag=O]
+[Text=登记证 CharacterOffsetBegin=98 CharacterOffsetEnd=101 PartOfSpeech=NN Lemma=登记证 NamedEntityTag=O]
+[Text=区别 CharacterOffsetBegin=101 CharacterOffsetEnd=103 PartOfSpeech=NN Lemma=区别 NamedEntityTag=O]
+[Text=有 CharacterOffsetBegin=103 CharacterOffsetEnd=104 PartOfSpeech=VE Lemma=有 NamedEntityTag=O]
+[Text=哪些 CharacterOffsetBegin=104 CharacterOffsetEnd=106 PartOfSpeech=PN Lemma=哪些 NamedEntityTag=O]
+[Text=？ CharacterOffsetBegin=106 CharacterOffsetEnd=107 PartOfSpeech=PU Lemma=？ NamedEntityTag=O]
+(ROOT
+  (IP
+    (NP
+      (CP
+        (IP
+          (NP
+            (CP
+              (IP
+                (NP (NN 国税))
+                (VP (VV 办)))
+              (DEC 的))
+            (NP (NN 税务) (NN 登记证)
+              (CC 和)
+              (NN 地税)))
+          (VP (VV 办)))
+        (DEC 的))
+      (NP (NN 税务) (NN 登记证) (NN 区别)))
+    (VP (VE 有)
+      (NP (PN 哪些)))
+    (PU ？)))
+
+root(ROOT-0, 有-13)
+nsubj(办-2, 国税-1)
+acl(地税-7, 办-2)
+mark(办-2, 的-3)
+compound:nn(地税-7, 税务-4)
+conj(地税-7, 登记证-5)
+cc(地税-7, 和-6)
+nsubj(办-8, 地税-7)
+acl(区别-12, 办-8)
+mark(办-8, 的-9)
+compound:nn(区别-12, 税务-10)
+compound:nn(区别-12, 登记证-11)
+dep(有-13, 区别-12)
+dobj(有-13, 哪些-14)
+punct(有-13, ？-15)
+
+Coreference set:
+	(2,6,[1,7]) -> (1,6,[1,7]), that is: "在 国税 办 的 税务 登记证" -> "在 国税 办 的 税务 登记证"
+Coreference set:
+	(2,2,[2,3]) -> (1,2,[2,3]), that is: "国税" -> "国税"
+	(3,1,[1,2]) -> (1,2,[2,3]), that is: "国税" -> "国税"
+	(4,1,[1,2]) -> (1,2,[2,3]), that is: "国税" -> "国税"
+Coreference set:
+	(2,6,[5,7]) -> (1,6,[5,7]), that is: "税务 登记证" -> "税务 登记证"
+Coreference set:
+	(2,9,[9,10]) -> (1,9,[9,10]), that is: "地税" -> "地税"
+Coreference set:
+	(3,12,[1,13]) -> (2,14,[1,15]), that is: "国税 办 的 税务 登记证 和 地税 办 的 税务 登记证 区别" -> "在 国税 办 的 税务 登记证 和 在 地税 办 的 税务 登记证 区别"
+	(4,12,[1,13]) -> (2,14,[1,15]), that is: "国税 办 的 税务 登记证 和 地税 办 的 税务 登记证 区别" -> "在 国税 办 的 税务 登记证 和 在 地税 办 的 税务 登记证 区别"
+	(4,14,[14,15]) -> (2,14,[1,15]), that is: "哪些" -> "在 国税 办 的 税务 登记证 和 在 地税 办 的 税务 登记证 区别"
+Coreference set:
+	(4,7,[1,8]) -> (3,7,[1,8]), that is: "国税 办 的 税务 登记证 和 地税" -> "国税 办 的 税务 登记证 和 地税"

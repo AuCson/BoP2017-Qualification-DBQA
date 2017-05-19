@@ -1,0 +1,82 @@
+(ROOT
+  (IP
+    (NP
+      (DNP
+        (NP
+          (NP (NR 关西))
+          (NP (NN 大学)))
+        (DEG 的))
+      (NP (NN 简称)))
+    (VP (VC 是)
+      (NP (PN 什么)))
+    (PU ？)))
+
+(ROOT
+  (IP
+    (NP
+      (NP
+        (NP (NR 武汉))
+        (NP (NN 大学)))
+      (NP (NN 国) (NN 学院)))
+    (VP (VV 开设) (AS 了)
+      (NP
+        (DP (DT 哪些))
+        (DNP
+          (ADJP (JJ 主要))
+          (DEG 的))
+        (NP (NN 课程))))
+    (PU ？)))
+
+
+
+
+
+
+
+
+
+(ROOT
+  (IP
+    (NP
+      (NP (NR 广州市))
+      (QP (OD 第五))
+      (NP (NN 中学)))
+    (VP
+      (PP (P 与)
+        (NP
+          (DP (DT 其他))
+          (ADJP (JJ 示范性))
+          (NP (NN 高中))))
+      (VP (VE 有)
+        (NP
+          (DP (DT 哪些))
+          (NP (NN 不同)))))
+    (PU ？)))
+
+(ROOT
+  (IP
+    (NP (NN 基督教))
+    (NP (NR 香港) (NR 信义))
+    (VP
+      (VP
+        (PP (VV 会)
+          (NP (NR 元朗) (NR 信义) (NN 中学)))
+        (VP (VE 有)
+          (NP (NN 几部分) (NN 学舍))))
+      (PU ，)
+      (VP
+        (ADVP (AD 分别))
+        (VP (VC 是)
+          (NP
+            (CP
+              (IP
+                (NP
+                  (DP (DT 什么))
+                  (NP (NN 时候)))
+                (VP
+                  (VP (VV 完工))
+                  (CC 或者)
+                  (VP (VV 开始)
+                    (VP (VV 使用)))))
+              (DEC 的))))))
+    (PU ？)))

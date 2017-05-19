@@ -3,3 +3,6 @@ stanford-segmenter-2016-10-31/
 *.pyc
 *.xml
 .idea/
+fnlp/
+cow/
+stanford-corenlp-full-2016-10-31/
