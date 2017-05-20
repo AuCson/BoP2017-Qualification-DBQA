@@ -1,15 +1,14 @@
 # Qualification
-BOP2017, Qualification Round.
+Qualification Round.
 更新0519，一个效果很不理想的Sentence Structure Based Model
 # Sentence Structure Model By Xisen
 基于问题与回答的句子结构的模型，下面讲讲是如何实现的吧<br>
 目录文件（部分并没有提交到git）
 >data/<br>
->  BoP2017-train.txt<br>
->  package (问题，答案，label分为单个文件并分块存储；问题，答案每个文件10000条)<br>
->  parsed/ （经过stanford corenlp工具生成的xml，非常大，8GB）<br>
->cow/<br>
->  一个表现非常一般的将中文单词映射到英文WordNet上的模块。不知哪里有离线中英词典可以替代。<br>
+>--BoP2017-train.txt<br>
+>--package/ (问题，答案，label分为单个文件并分块存储；问题，答案每个文件10000条)<br>
+>--parsed/ （经过stanford corenlp工具生成的xml，非常大，8GB）<br>
+>cow/ (一个表现非常一般的将中文单词映射到英文WordNet上的模块。不知哪里有离线中英词典可以替代。)<br>
 >stanford corenlp/ （coreNLP工具)<br>
 
 思路是这样的：
