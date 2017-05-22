@@ -55,13 +55,20 @@ def find_word_net_id(known_ref,key):
     return [id2ss(i) for i in found_list]
 
 def get_sim(word_a,word_b):
+    if word_a == word_b:
+        return 1.0
     try:
-        global cache_simset
         a = find_word_net_id(known,word_a)[0]
         b = find_word_net_id(known,word_b)[0]
-        sim = a.lch_similarity(b)
-        return sim ** 3
-    except IndexError:
-        return -1
+        sim = a.path_similarity(b)
+        return sim
+    except IndexError: # 没有找到这个词汇
+        #一个尝试性的方法：中文中，两个同义词通常有相同的字，因此……
+        score = 0.0
+        for char in word_a:
+            if char in word_b:
+                score += 1.0
+        score /= len(word_a)
+        return score
     except ValueError:
-        return -1
+        return 0.0

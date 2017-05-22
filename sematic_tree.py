@@ -3,6 +3,7 @@ class Sematic_tree:
         self.root = self.Node()
         self.s = ""
         self.quote_ref = {}
+        self.flatten = []
 
     class Node:
         def __init__(self):
@@ -52,8 +53,45 @@ class Sematic_tree:
         self.preprocess_quote()
         self.root = self.build_tree(0)
 
+    def do_flatten(self,node,res):
+        res.append(node)
+        for child in node.child:
+            self.do_flatten(child,res)
+        self.flatten = res
 
-if __name__=='main':
+    def find_tag(self,tag):
+        if not self.flatten:
+            self.do_flatten(self.root,self.flatten)
+        res = []
+        for node in self.flatten:
+            if node.tag == tag:
+                res.append(node)
+        return res
+
+    def find_nearest_tag(self,node,tag):
+        if not self.flatten:
+            self.do_flatten(self.root,self.flatten)
+        idx = -1
+        for i,n in enumerate(self.flatten):
+            if node == n:
+                idx = i
+                break
+        if idx == -1:
+            return None
+        while idx >= 0:
+            if self.flatten[idx].tag == tag:
+                return self.flatten[idx]
+            idx -= 1
+        return None
+
+    def find_all_leaf_word(self,node,res):
+        if node.word != '':
+            res.append(node.word)
+        for child in node.child:
+            self.find_all_leaf_word(child,res)
+
+
+def test():
     with open('debug.txt','r') as f:
         tree = Sematic_tree()
         tree.s = f.read()
