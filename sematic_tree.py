@@ -36,7 +36,13 @@ class Sematic_tree:
             i += 1
         n.tag = self.s[c:i]
         # recurrently build the tree
-        r = self.quote_ref[start_pos]
+        try:
+            r = self.quote_ref[start_pos]
+        except KeyError:
+            print self.quote_ref
+            print self.s
+            r = 0
+            raw_input()
         while i < r:
             while str.isspace(self.s[i]):
                 i += 1
@@ -51,7 +57,7 @@ class Sematic_tree:
 
     def build_tree_from_root(self):
         self.preprocess_quote()
-        self.root = self.build_tree(0)
+        self.root = self.build_tree(min(self.quote_ref.keys()))
 
     def do_flatten(self,node,res):
         res.append(node)

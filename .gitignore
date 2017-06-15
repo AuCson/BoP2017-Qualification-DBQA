@@ -5,4 +5,5 @@ stanford-segmenter-2016-10-31/
 .idea/
 fnlp/
 cow/
+out.*
 stanford-corenlp-full-2016-10-31/
