@@ -15,4 +15,5 @@ Task: (DBQA-Problem)Given a question an a set of candidate answers, select the m
 * POS中主语，宾语等的重复度。（事实上，上述第一，二个特征是对此特征的改进）<br>
 根据中文的特征，词重复度单纯使用字重复度进行判断。曾使用中文WordNet，但是中文WordNet词数略显匮乏，而且会降低性能，不能满足需要。
 4. 机器学习模型。提取特征后，简单使用Logistic Regression进行评分。<br>
-结果：通过资格赛。自行在毎10000组数据测试，MRR在0.55-0.7内浮动。平均约为0.63。
+结果：通过资格赛。自行在毎10000组数据测试，MRR在0.55-0.7内浮动。平均约为0.63。<br>
+注：该模型具有非常高的Precision，但是较低的Recall. 此模型特征数较少，增加特征可能有利于提升模型的表现。
